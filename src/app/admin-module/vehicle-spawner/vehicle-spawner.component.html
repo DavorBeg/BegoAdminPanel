@@ -1,0 +1,35 @@
+
+
+<div class="gridWrapper">
+    <div style="width: 95%; background-color: #30323c; height: 50px; margin: 5px 10px; display: flex; justify-content: space-between; align-items: center;">
+        <div style="display: flex; justify-content: left; align-items: center;">
+            <nz-pagination style="margin: 0px 10px;" [nzPageSize]="this.vehService.vehiclePerPage" [nzPageIndex]="this.vehService.pageIndex" [nzTotal]="this.vehService.totalItems" (nzPageIndexChange)="pageIndexChange($event)"></nz-pagination>
+
+            <nz-select nzShowSearch nzAllowClear nzPlaceHolder="Select vehicle group" style="width: 250px; display: flex; flex-direction: column;" [(ngModel)]="selectedGroup" (ngModelChange)="ChangedVehicleGroup()">
+                <div *ngFor="let g of this.vehService.AllVehiclesGroups">
+                    <nz-option [nzLabel]="g" [nzValue]="g"></nz-option>
+                </div>
+                
+            </nz-select>
+        </div>
+
+    
+        <div style="width: 250px; margin-right: 10px;">
+            <input class="search-input"
+              placeholder='🔍 Search vehicle by name ...'
+              nz-input
+              [(ngModel)]="searchVehicle"
+              (ngModelChange)="onSearchChange($event)"
+              [nzAutocomplete]="auto"
+            />
+            <nz-autocomplete [nzDataSource]="filteredVehicles" #auto></nz-autocomplete>
+          </div>
+    </div>
+    <cdk-virtual-scroll-viewport appendOnly itemSize="10" class="example-viewport">
+        <div class="grid-container">
+            <div *ngFor="let i of (this.vehService.VehiclePackages$ | async)!">
+                <app-vehicle-card [VehicleModelObject]="i" [Title]="i.Name" [Description]="i.Description" [ImageLocation]="i.ImagePath"></app-vehicle-card>
+            </div>
+        </div>
+    </cdk-virtual-scroll-viewport>
+</div>

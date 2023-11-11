@@ -1,0 +1,44 @@
+<div class="container">
+
+<nz-layout>
+    <nz-header>
+        <div class="headerClass">
+            <div class="headerClassLeftSide">
+                <a [routerLink]="['/home']" routerLinkActive="active"><img src="assets/images/logo.png" height="50"/></a>
+                <h2 style="color: white;">My server name</h2>
+            </div>
+            <button nz-button nzType="default" [nzSize]="size" nzShape="circle"><span nz-icon nzType="close" nzTheme="outline" style="font-size: 23px; font-weight: 900; color:white;"></span></button>
+        </div>
+
+    </nz-header>
+    <nz-layout>
+      <nz-sider [nzWidth]="300">
+        <div class="siderClass">
+            <nz-divider nzText="Admin panel"></nz-divider>
+            <button (click)="NavigateTo('/AdminPanel/home')" nz-button nzType="text" nzBlock>Home</button>
+            <button (click)="NavigateTo('/AdminPanel/playerList')" nz-button nzType="text" nzBlock>Player list</button>
+            <button (click)="NavigateTo('/AdminPanel/banList')" nz-button nzType="text" nzBlock>Ban list</button>
+            <button (click)="NavigateTo('/AdminPanel/commands')" nz-button nzType="text" nzBlock>Commands</button>
+            <nz-divider nzText="Spawner"></nz-divider>
+            <button (click)="NavigateTo('/AdminPanel/vehicleSpawner')" nz-button nzType="text" nzBlock>Vehicle spawner</button>
+            <button (click)="NavigateTo('/AdminPanel/weaponSpawner')" nz-button nzType="text" nzBlock>Weapon spawner</button>
+            <nz-divider nzText="World"></nz-divider>
+            <button (click)="NavigateTo('/AdminPanel/weather')" nz-button nzType="text" nzBlock>Weather</button>
+        </div>
+      </nz-sider>
+      <nz-content>
+        <div *ngIf="router.url == '/AdminPanel/home' || router.url === '/AdminPanel'">
+            <h1 style="color: red;">hello world</h1>
+        </div>
+        <app-player-list *ngIf="router.url == '/AdminPanel/playerList'"></app-player-list>
+        <app-ban-list *ngIf="router.url == '/AdminPanel/banList'" />
+        <app-commands *ngIf="router.url == '/AdminPanel/commands'" />
+        <app-vehicle-spawner *ngIf="router.url == '/AdminPanel/vehicleSpawner'" />
+        <app-weapon-spawner *ngIf="router.url == '/AdminPanel/weaponSpawner'" />
+        <app-weather *ngIf="router.url == '/AdminPanel/weather'" />
+      </nz-content>
+    </nz-layout>
+    <nz-footer>Footer</nz-footer>
+</nz-layout>
+
+</div>

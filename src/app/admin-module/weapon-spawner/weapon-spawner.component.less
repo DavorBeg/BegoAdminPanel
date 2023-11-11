@@ -1,0 +1,89 @@
+:host
+{
+  display:block !important;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    background-color: transparent;
+    padding: 25px;
+    width: 95%;
+    justify-items: center;
+    overflow-y: hidden;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+
+.gridWrapper
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+  
+  @media (min-width: 2100px)
+  {
+    .grid-container {
+      grid-template-columns: repeat(4, minmax(250px, 1fr));
+    }
+  }
+
+  @media (min-width: 2370px)
+  {
+    .grid-container {
+      grid-template-columns: repeat(5, minmax(250px, 1fr));
+    }
+  }
+
+  @media (min-width: 2700px)
+  {
+    .grid-container {
+      grid-template-columns: repeat(6, minmax(250px, 1fr));
+    }
+  }
+  @media (min-width: 3000px)
+  {
+    .grid-container {
+      grid-template-columns: repeat(7, minmax(250px, 1fr));
+    }
+  }
+  .search-input
+  {
+    background-color: #30323c !important;
+    color: white;
+    width: 100%;
+    border: 0px;
+    border: 1px solid #41434f;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .example-viewport {
+    height: 60vh;
+    width: 95%;
+    border: 1px solid black;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .example-viewport::-webkit-scrollbar {
+    display: none;
+  }
+  ::ng-deep.cdk-virtual-scroll-content-wrapper
+  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  

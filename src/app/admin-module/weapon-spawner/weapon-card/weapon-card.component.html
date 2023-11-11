@@ -1,0 +1,20 @@
+<div class="cardWrapper">
+    <nz-card nz-flexible style="width:100%; height: 100%; display: flex; flex-direction: column; justify-content: space-between;" [nzCover]="coverTemplate" [nzActions]="[actionSetting, actionEdit]">
+        <nz-card-meta
+          [nzTitle]='Title'
+          [nzDescription]='Description'
+          [nzAvatar]="avatarTemplate"
+        ></nz-card-meta>
+      </nz-card>
+      <ng-template #avatarTemplate>
+      </ng-template>
+      <ng-template #coverTemplate>
+        <img style="max-height: 170px; object-fit: cover;" [src]='ImageLocation' />
+      </ng-template>
+      <ng-template #actionSetting>
+        <button nz-button nzType="primary" style="width:80%;">Spawn</button>
+      </ng-template>
+      <ng-template #actionEdit>
+        <button nz-button nzType="default" style="width:80%;">More...</button>
+      </ng-template>
+</div>

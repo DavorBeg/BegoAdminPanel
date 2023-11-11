@@ -1,0 +1,1055 @@
+{
+  "Melee": [
+    {
+      "Name": "Antique Cavalry Dagger",
+      "Hash": "0x92A27487",
+      "Description": "An elegant, historical dagger with ornate engravings. A collector's gem and a lethal close-quarters weapon.",
+      "Price": 250,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/melee/Antique-cavalry-dagger-icon.png"
+    },
+    {
+      "Name": "Weapon Bat",
+      "Hash": "0x958A4A8F",
+      "Description": "A sturdy, traditional wooden baseball bat. It's a versatile tool for both sports and self-defense.",
+      "Price": 40,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/melee/Baseball-bat-icon.png"
+    },
+    {
+      "Name": "Weapon Bottle",
+      "Hash": "0xF9E6AA4B",
+      "Description": "A breakable glass bottle that can be used as an improvised weapon. Handle with caution.",
+      "Price": 15,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/melee/Broken-bottle-icon.png"
+    },
+    {
+      "Name": "Weapon Crowbar",
+      "Hash": "0x84BD7BFD",
+      "Description": "A heavy, metal crowbar with a solid grip. Useful for prying and as a blunt force tool.",
+      "Price": 30,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/melee/Crowbar-icon.png"
+    },
+    {
+      "Name": "Weapon unarmed",
+      "Hash": "0xA2719263",
+      "Description": "Remove all player weapons from inventory.",
+      "Price": 0,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/melee/Fist-icon.png"
+    },
+    {
+      "Name": "Weapon Flashlight",
+      "Hash": "0x8BB05FD7",
+      "Description": "A heavy-duty tactical flashlight with a powerful beam. It can be used for illumination or as an improvised striking tool.",
+      "Price": 125,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/melee/Flashlight-icon.png"
+    },
+    {
+      "Name": "Weapon Golf Club",
+      "Hash": "0x440E4788",
+      "Description": "A standard golf club with a steel shaft and wooden head. It's not just for golf; it makes for a formidable melee weapon.",
+      "Price": 315,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/melee/Golf-club-icon.png"
+    },
+    {
+      "Name": "Weapon Hammer",
+      "Hash": "0x4E875F73",
+      "Description": "A heavy-duty hammer with a sturdy handle. Useful for construction work and doubles as a powerful close-quarters weapon.",
+      "Price": 35,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/melee/Hammer-icon.png"
+    },
+    {
+      "Name": "Weapon Hatchet",
+      "Hash": "0xF9DCBF2D",
+      "Description": "A deadly hatchet with a solid wooden handle. Ideal for chopping wood and equally effective in close combat.",
+      "Price": 142,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/melee/Hatchet-icon.png"
+    },
+    {
+      "Name": "Weapon Knuckle",
+      "Hash": "0xD8DF3C3C",
+      "Description": "A set of metal knuckles designed for hand-to-hand combat. Provides an advantage in close-quarters fights.",
+      "Price": 70,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/melee/Knuckles-icon.png"
+    },
+    {
+      "Name": "Weapon Knife",
+      "Hash": "0x99B507EA",
+      "Description": "A sharp and versatile military-grade knife with a durable blade. Suitable for various tasks, including self-defense in close combat.",
+      "Price": 150,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/melee/Knife-icon.png"
+    },
+    {
+      "Name": "Weapon Machete",
+      "Hash": "0xDD5DF8D9",
+      "Description": "A rugged and versatile machete with a sharp blade. Ideal for cutting through vegetation and equally effective in close combat.",
+      "Price": 90,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/melee/Machete-icon.png"
+    },
+    {
+      "Name": "Weapon Switchblade",
+      "Hash": "0xDFE37640",
+      "Description": "A compact and concealable switchblade knife with a sharp blade. Suitable for various tasks, including self-defense in close combat.",
+      "Price": 78,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/melee/Switch-blade-icon.png"
+    },
+    {
+      "Name": "Weapon Nightstick",
+      "Hash": "0x678B81B1",
+      "Description": "A standard-issue police nightstick made of durable materials. Effective for crowd control and self-defense.",
+      "Price": 60,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/melee/Nightstick-icon.png"
+    },
+    {
+      "Name": "Weapon Wrench",
+      "Hash": "0x19044EE0",
+      "Description": "A heavy-duty mechanic's wrench with a solid grip. Useful for vehicle repairs and doubles as a formidable melee weapon.",
+      "Price": 40,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/melee/Pipe-wrench-icon.png"
+    },
+    {
+      "Name": "Weapon Battleaxe",
+      "Hash": "0xCD274149",
+      "Description": "A menacing battleaxe with a razor-sharp blade and a sturdy handle. Designed for maximum impact in close combat.",
+      "Price": 190,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/melee/Battle-axe-icon.png"
+    },
+    {
+      "Name": "Weapon Pool Cue",
+      "Hash": "0x94117305",
+      "Description": "A standard pool cue made from high-quality wood. Doubles as an improvised weapon in a tight spot.",
+      "Price": 30,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/melee/Pool-cue-icon.png"
+    },
+    {
+      "Name": "Weapon Stone Hatchet",
+      "Hash": "0x3813FC08",
+      "Description": "A crude but effective stone hatchet with a sharp edge. A primitive weapon suitable for survival situations.",
+      "Price": 25,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/melee/Stone-hatchet-icon.png"
+    },
+    {
+      "Name": "Weapon Candy Cane",
+      "Hash": "0x6589186A",
+      "Description": "A festive and oversized candy cane. While it's not a conventional weapon, it can still pack a sweet punch in a holiday brawl.",
+      "Price": 5,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/melee/Candy-cane-icon.png"
+    }
+
+  ],
+
+
+
+
+
+  "Handguns": [
+    {
+      "Name": "Pistol Mk1 ",
+      "Hash": "0x1B06D571",
+      "Description": "A standard semi-automatic pistol chambered for 9mm rounds. A versatile sidearm suitable for self-defense and concealed carry.",
+      "Price": 620,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Pistol-icon.png"
+    },
+    {
+      "Name": "Pistol Mk2",
+      "Hash": "0xBFE256D4",
+      "Description": "An advanced semi-automatic pistol with enhanced features and customization options. Ideal for tactical use.",
+      "Price": 1200,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Pistol-mk2-icon.png"
+    },
+    {
+      "Name": "Combat Pistol",
+      "Hash": "0x5EF9FEC4",
+      "Description": "A high-capacity semi-automatic pistol with improved accuracy and handling. Suitable for both law enforcement and personal defense.",
+      "Price": 600,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Combat-pistol-icon.png"
+    },
+    {
+      "Name": "AP Pistol",
+      "Hash": "0x22D8FE39",
+      "Description": "A fully-automatic, high-capacity pistol chambered for 9mm rounds. Ideal for rapid fire in close-quarters combat.",
+      "Price": 1600,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Appistol-icon.png"
+    },
+    {
+      "Name": "Stun Gun",
+      "Hash": "0x3656C8C1",
+      "Description": "A non-lethal electroshock weapon used for incapacitating targets by delivering an electric shock.",
+      "Price": 700,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Stungun-icon-mp.png"
+    },
+    {
+      "Name": "Pistol .50",
+      "Hash": "0x99AEEB3B",
+      "Description": "A high-caliber semi-automatic pistol chambered for .50 caliber rounds. Packs a serious punch with excellent stopping power.",
+      "Price": 800,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Pistol.png"
+    },
+    {
+      "Name": "SNS Pistol",
+      "Hash": "0xBFD21232",
+      "Description": "A compact and lightweight semi-automatic pistol chambered for .45 ACP rounds. Suitable for concealed carry and close-quarters engagements.",
+      "Price": 200,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Sns-pistol-icon.png"
+    },
+    {
+      "Name": "SNS Pistol Mk2",
+      "Hash": "0x88374054",
+      "Description": "An upgraded version of the compact and lightweight semi-automatic pistol chambered for .45 ACP rounds. Offers improved performance and customization options.",
+      "Price": 900,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Sns-pistol-mk2-icon.png"
+    },
+    {
+      "Name": "Heavy Pistol",
+      "Hash": "0xD205520E",
+      "Description": "A powerful semi-automatic pistol chambered for .45 ACP rounds. Known for its stopping power and accuracy.",
+      "Price": 1300,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Heavy-pistol-icon.png"
+    },
+    {
+      "Name": "Vintage Pistol",
+      "Hash": "0x83839C4",
+      "Description": "A classic and stylish semi-automatic pistol chambered for .45 ACP rounds. A collector's item with respectable performance.",
+      "Price": 1400,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Vintage-pistol-icon.png"
+    },
+    {
+      "Name": "Flare Gun",
+      "Hash": "0x47757124",
+      "Description": "A firearm that fires incendiary flares. Often used for signaling but can also be a tool for setting fires.",
+      "Price": 60,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Flaregun-icon.png"
+    },
+    {
+      "Name": "Marksman Pistol",
+      "Hash": "0xDC4DB296",
+      "Description": "A specialized semi-automatic pistol chambered for high-velocity rounds. Designed for precision shooting at longer ranges.",
+      "Price": 1800,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Marksman-pistol-icon.png"
+    },
+    {
+      "Name": "Revolver",
+      "Hash": "0xC1B3C3D1",
+      "Description": "A classic and powerful six-shot revolver chambered for .45 Colt rounds. Known for its reliability and stopping power.",
+      "Price": 1400,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Heavy-revolver-icon.png"
+    },
+    {
+      "Name": "Revolver Mk2",
+      "Hash": "0xCB96392F",
+      "Description": "An upgraded version of the classic six-shot revolver chambered for .45 Colt rounds. Offers improved performance and customization options.",
+      "Price": 1800,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Heavy-revolver-mk2-icon.png"
+    },
+    {
+      "Name": "Double Action Revolver",
+      "Hash": "0x97EA20B8",
+      "Description": "A modern double-action revolver chambered for .357 Magnum rounds. Known for its quick firing speed and accuracy.",
+      "Price": 1600,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Double-action-revolver-icon.png"
+    },
+    {
+      "Name": "Up-n-Atomizer",
+      "Hash": "0xAF3696A1",
+      "Description": "A handheld ray gun with the ability to launch targets into the air. Great for causing chaos and entertaining mayhem.",
+      "Price": 10000,
+      "Spawnable": false,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Up-n-atomizer-icon.png"
+    },
+    {
+      "Name": "Ceramic Pistol",
+      "Hash": "0x2B5EF5EC",
+      "Description": "A sleek and lightweight ceramic pistol designed for stealth and discretion. Its non-metallic construction makes it ideal for covert operations.",
+      "Price": 2100,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Ceramic-pistol-icon.png"
+    },
+    {
+      "Name": "Navy Revolver",
+      "Hash": "0x917F6C8C",
+      "Description": "A classic-style six-shot revolver chambered for .36 caliber rounds. Known for its historical design and accuracy.",
+      "Price": 1200,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Navy-revolver-icon.png"
+    },
+    {
+      "Name": "Perico Pistol",
+      "Hash": "0x57A4368C",
+      "Description": "A semi-automatic pistol inspired by the iconic WWII luger design. Known for its reliability and historical charm.",
+      "Price": 1500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Perico-pistol-icon.png"
+    },
+    {
+      "Name": "Stun Gun",
+      "Hash": "0x45CD9CF3",
+      "Description": "A non-lethal electroshock weapon used for incapacitating targets by delivering an electric shock.",
+      "Price": 800,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/Stungun-icon.png"
+    },
+    {
+      "Name": "Pistol XM3",
+      "Hash": "0x1BC4FDB9",
+      "Description": "A semi-automatic pistol with a classic design. Known for its reliability and timeless appeal.",
+      "Price": 1200,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/handguns/WM-29-pistol-icon.png"
+    }
+  ],
+
+
+
+
+
+
+  "Submachines": [
+    {
+      "Name": "Micro SMG",
+      "Hash": "0x13532244",
+      "Description": "A compact and fully automatic submachine gun chambered for 9mm rounds. Known for its high rate of fire and portability.",
+      "Price": 2600,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/submachines/Micro-smg-icon.png"
+    },
+    {
+      "Name": "SMG",
+      "Hash": "0x2BE6766B",
+      "Description": "A compact and fully automatic submachine gun chambered for 9mm rounds. Ideal for close-quarters combat and rapid fire.",
+      "Price": 2800,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/submachines/Smg-icon.png"
+    },
+    {
+      "Name": "SMG Mk II",
+      "Hash": "0x78A97CD0",
+      "Description": "An upgraded version of the compact and fully automatic submachine gun chambered for 9mm rounds. Features enhanced performance and customization options.",
+      "Price": 2600,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/submachines/Smg-mk2-icon.png"
+    },
+    {
+      "Name": "Assault SMG",
+      "Hash": "0xEFE7E2DF",
+      "Description": "A compact and fully automatic submachine gun chambered for 5.56mm rounds. Known for its high rate of fire and versatility in close to mid-range combat.",
+      "Price": 2930,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/submachines/Assault-smg-icon.png"
+    },
+    {
+      "Name": "Combat PDW",
+      "Hash": "0x0A3D4D34",
+      "Description": "A compact and fully automatic personal defense weapon chambered for 5.56mm rounds. Ideal for close-quarters combat and rapid fire.",
+      "Price": 2780,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/submachines/Combat-pdw-icon.png"
+    },
+    {
+      "Name": "Machine Pistol",
+      "Hash": "0xDB1AA450",
+      "Description": "A compact and fully automatic machine pistol chambered for 9mm rounds. Ideal for close-quarters combat and rapid fire.",
+      "Price": 2000,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/submachines/Machine-pistol-icon.png"
+    },
+    {
+      "Name": "Mini SMG",
+      "Hash": "0xBD248B55",
+      "Description": "A compact and fully automatic submachine gun chambered for 9mm rounds. Designed for concealed carry and close-quarters combat.",
+      "Price": 1800,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/submachines/Mini-smg-icon.png"
+    },
+    {
+      "Name": "Unholy Hellbringer",
+      "Hash": "UNHOLYHELLBRINGER",
+      "Description": "An energy-based weapon with a high rate of fire and devastating power. Capable of sustained fire and great for crowd control.",
+      "Price": 10000,
+      "Spawnable": false,
+      "Enabled": true,
+      "ImagePath": "assets/images/submachines/Unholy-hellbringer-icon.png"
+    },
+    {
+      "Name": "Tactical SMG",
+      "Hash": "0x14E5AFD5",
+      "Description": "A compact and fully automatic submachine gun chambered for 5.56mm rounds. Designed for tactical use with a focus on accuracy and versatility.",
+      "Price": 3100,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/submachines/Tactical-smg-icon.png"
+    }
+  ],
+
+
+
+
+
+
+
+
+  "Shotguns": [
+    {
+      "Name": "Pump Shotgun",
+      "Hash": "0x1D073A89",
+      "Description": "A classic pump-action shotgun chambered for 12-gauge shells. Known for its stopping power at close range.",
+      "Price": 2600,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/shotguns/Pump-shotgun-icon.png"
+    },
+    {
+      "Name": "Pump Shotgun Mk II",
+      "Hash": "0x555AF99A",
+      "Description": "An advanced version of the classic pump-action shotgun chambered for 12-gauge shells. Offers improved performance and customization options.",
+      "Price": 2800,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/shotguns/Pump-shotgun-mk2-icon.png"
+    },
+    {
+      "Name": "Sawed-Off Shotgun",
+      "Hash": "0x7846A318",
+      "Description": "A compact double-barreled shotgun with shortened barrels, chambered for 12-gauge shells. Known for its devastating power at close range.",
+      "Price": 3500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/shotguns/Sawed-off-shotgun-icon.png"
+    },
+    {
+      "Name": "Assault Shotgun",
+      "Hash": "0xE284C527",
+      "Description": "A fully automatic shotgun chambered for 12-gauge shells. Ideal for suppressing enemy targets with rapid fire.",
+      "Price": 3720,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/shotguns/Assault-shotgun-icon.png"
+    },
+    {
+      "Name": "Bullpup Shotgun",
+      "Hash": "0x9D61E50F",
+      "Description": "A compact and fully automatic shotgun chambered for 12-gauge shells. Known for its high rate of fire and portability.",
+      "Price": 3800,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/shotguns/Bullpup-shotgun-icon.png"
+    },
+    {
+      "Name": "Musket",
+      "Hash": "0xA89CB99E",
+      "Description": "A muzzle-loading long-barreled rifle with exceptional range and accuracy, chambered for a single 10-gauge shot. Ideal for historical reenactments and long-range shots.",
+      "Price": 5000,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/shotguns/Musket-icon.png"
+    },
+    {
+      "Name": "Heavy Shotgun",
+      "Hash": "0x3AABBBAA",
+      "Description": "A pump-action shotgun chambered for 12-gauge shells. Known for its power and effective range, making it suitable for heavy-duty applications.",
+      "Price": 6150,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/shotguns/Heavy-shotgun-icon.png"
+    },
+    {
+      "Name": "Double Barrel Shotgun",
+      "Hash": "0xEF951FBB",
+      "Description": "A break-action shotgun with two barrels, chambered for 12-gauge shells. Known for its raw stopping power at close range.",
+      "Price": 2215,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/shotguns/Double-barrel-shotgun-icon.png"
+    },
+    {
+      "Name": "Sweeper Shotgun",
+      "Hash": "0x12E82D3D",
+      "Description": "A fully automatic shotgun chambered for 12-gauge shells. Ideal for delivering a continuous hail of pellets in close-quarters combat.",
+      "Price": 6700,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/shotguns/Sweeper-shotgun-icon.png"
+    },
+    {
+      "Name": "Combat Shotgun",
+      "Hash": "COMBATSHOTGUN",
+      "Description": "A pump-action shotgun chambered for 12-gauge shells. Known for its versatility and reliability in various combat situations.",
+      "Price": 4000,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/shotguns/Combat-shotgun-icon.png"
+    }
+  ],
+
+
+
+
+
+
+
+
+  "Assault Rifles": [
+    {
+      "Name": "Assault Rifle",
+      "Hash": "0xBFEFFF6D",
+      "Description": "A fully automatic assault rifle chambered for intermediate cartridges. Versatile and effective in a variety of combat scenarios.",
+      "Price": 9500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/assaultrifles/Assault-rifle-icon.png"
+    },
+    {
+      "Name": "Assault Rifle Mk II",
+      "Hash": "0x394F415C",
+      "Description": "An advanced version of the fully automatic assault rifle chambered for intermediate cartridges. Features enhanced performance and customization options.",
+      "Price": 11500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/assaultrifles/Assault-rifle-mk2-icon.png"
+    },
+    {
+      "Name": "Carbine Rifle",
+      "Hash": "0x83BF0278",
+      "Description": "A standard-issue carbine rifle known for its reliability and versatility.",
+      "Price": 13000,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/assaultrifles/Carbine-rifle-icon.png"
+    },
+    {
+      "Name": "Carbine Rifle Mk II",
+      "Hash": "0xFAD1F1C9",
+      "Description": "An advanced version of the carbine rifle with improved features and customization options.",
+      "Price": 12000,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/assaultrifles/Carbine-rifle-mk2-icon.png"
+    },
+    {
+      "Name": "Advanced Rifle",
+      "Hash": "0xAF113F99",
+      "Description": "A highly accurate and rapid-firing assault rifle designed for combat situations.",
+      "Price": 9000,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/assaultrifles/Advanced-rifle-icon.png"
+    },
+    {
+      "Name": "Special Carbine",
+      "Hash": "0xC0A3098D",
+      "Description": "A versatile and customizable carbine rifle with special modifications for enhanced performance.",
+      "Price": 9500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/assaultrifles/Special-carbine-icon.png"
+    },
+    {
+      "Name": "Special Carbine Mk II",
+      "Hash": "0x969C3D67",
+      "Description": "An advanced version of the special carbine rifle with improved features and customization options.",
+      "Price": 12500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/assaultrifles/Special-carbine-mk2-icon.png"
+    },
+    {
+      "Name": "Bullpup Rifle",
+      "Hash": "0x7F229F94",
+      "Description": "A compact and ergonomic bullpup rifle known for its handling and accuracy.",
+      "Price": 15000,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/assaultrifles/Bullpup-rifle-icon.png"
+    },
+    {
+      "Name": "Bullpup Rifle Mk II",
+      "Hash": "0x84D6FAFD",
+      "Description": "An advanced version of the bullpup rifle with improved features and customization options.",
+      "Price": 11000,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/assaultrifles/Bullpup-rifle-mk2-icon.png"
+    },
+    {
+      "Name": "Compact Rifle",
+      "Hash": "0x624FE830",
+      "Description": "A lightweight and compact rifle designed for close-quarters combat.",
+      "Price": 13500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/assaultrifles/Compact-rifle-icon.png"
+    },
+    {
+      "Name": "Military Rifle",
+      "Hash": "0x9D1F17E6",
+      "Description": "A military-grade rifle known for its durability and reliability in extreme conditions.",
+      "Price": 11500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/assaultrifles/Military-rifle-icon.png"
+    },
+    {
+      "Name": "Heavy Rifle",
+      "Hash": "0xC78D71B4",
+      "Description": "A heavy-duty rifle designed for maximum firepower and impact.",
+      "Price": 14000,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/assaultrifles/Heavy-rifle-icon.png"
+    },
+    {
+      "Name": "Tactical Rifle",
+      "Hash": "0xD1D5F52B",
+      "Description": "A versatile and tactical rifle suitable for a variety of combat scenarios.",
+      "Price": 10500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/assaultrifles/Tactical-rifle-icon.png"
+    }
+
+  ],
+
+
+
+
+
+
+  "Light Machine Guns": [
+    {
+      "Name": "MG",
+      "Hash": "0x9D07F764",
+      "Description": "A standard-issue machine gun known for its firepower and reliability.",
+      "Price": 25500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/lightmachines/Mg-icon.png"
+    },
+    {
+      "Name": "Combat MG",
+      "Hash": "0x7FD62962",
+      "Description": "A heavy-duty machine gun designed for combat situations, offering rapid fire and precision.",
+      "Price": 28500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/lightmachines/Combat-mg-icon.png"
+    },
+    {
+      "Name": "Combat MG Mk II",
+      "Hash": "0xDBBD7280",
+      "Description": "An advanced version of the combat machine gun with improved features, accuracy, and customization options.",
+      "Price": 24500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/lightmachines/Combat-mg-mk2-icon.png"
+    },
+    {
+      "Name": "Gusenberg Sweeper",
+      "Hash": "0x61012683",
+      "Description": "A vintage-style machine gun, known for its unique appearance and reliable performance.",
+      "Price": 19500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/lightmachines/Gusenberg-sweeper-icon.png"
+    }
+  ],
+
+
+
+
+
+
+  "Sniper rifles": [
+    {
+      "Name": "Sniper Rifle",
+      "Hash": "0x05FC3C11",
+      "Description": "A long-range precision rifle favored by sharpshooters for its accuracy and power.",
+      "Price": 39500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/snipers/Sniper-rifle-icon.png"
+    },
+    {
+      "Name": "Heavy Sniper",
+      "Hash": "0x0C472FE2",
+      "Description": "A heavy-caliber sniper rifle designed for long-range engagements with devastating stopping power.",
+      "Price": 34500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/snipers/Heavy-sniper-icon.png"
+    },
+    {
+      "Name": "Heavy Sniper Mk II",
+      "Hash": "0xA914799",
+      "Description": "An advanced version of the heavy sniper rifle with improved features, accuracy, and customization options.",
+      "Price": 41000,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/snipers/Heavy-sniper-mk2-icon.png"
+    },
+    {
+      "Name": "Marksman Rifle",
+      "Hash": "0xC734385A",
+      "Description": "A versatile semi-automatic rifle, ideal for mid-range precision shooting.",
+      "Price": 37500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/snipers/Marksman-rifle-icon.png"
+    },
+    {
+      "Name": "Marksman Rifle Mk II",
+      "Hash": "0x6A6C02E0",
+      "Description": "An advanced version of the marksman rifle with improved features, accuracy, and customization options.",
+      "Price": 31000,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/snipers/Marksman-rifle-mk2-icon.png"
+    },
+    {
+      "Name": "Precision Rifle",
+      "Hash": "0x6E7DDDEC",
+      "Description": "A specialized precision rifle designed for accurate long-range shooting.",
+      "Price": 32500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/snipers/Precision-rifle-icon.png"
+    }
+  ],
+
+
+
+
+
+
+
+
+  "Heavy Weapons": [
+    {
+      "Name": "RPG",
+      "Hash": "0xB1CA77B1",
+      "Description": "A portable rocket launcher capable of delivering explosive firepower to both vehicles and targets.",
+      "Price": 47500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/heavyweapons/Rocket-launcher-icon.png"
+    },
+    {
+      "Name": "Grenade Launcher",
+      "Hash": "0xA284510B",
+      "Description": "A launcher that fires explosive grenades, suitable for dealing with groups of enemies or vehicles.",
+      "Price": 44000,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/heavyweapons/Grenade-launcher-icon.png"
+    },
+    {
+      "Name": "Smoke Grenade Launcher",
+      "Hash": "0x4DD2DC56",
+      "Description": "A specialized grenade launcher that fires smoke grenades for tactical cover.",
+      "Price": 48500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/heavyweapons/Grenade-launcher-icon-smoke.png"
+    },
+    {
+      "Name": "Minigun",
+      "Hash": "0x42BF8A85",
+      "Description": "A rapid-firing, high-powered machine gun capable of tearing through enemies and vehicles.",
+      "Price": 70000,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/heavyweapons/Minigun-icon.png"
+    },
+    {
+      "Name": "Firework Launcher",
+      "Hash": "0x7F7497E5",
+      "Description": "A special launcher designed to shoot colorful fireworks into the sky for festive occasions.",
+      "Price": 47500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/heavyweapons/Firework-launcher-icon.png"
+    },
+    {
+      "Name": "Railgun",
+      "Hash": "0x6D544C99",
+      "Description": "An experimental electromagnetic launcher capable of delivering powerful, high-velocity shots.",
+      "Price": 95000,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/heavyweapons/Railgun-icon.png"
+    },
+    {
+      "Name": "Homing Launcher",
+      "Hash": "0x63AB0442",
+      "Description": "A missile launcher with homing capabilities, designed for taking down airborne targets.",
+      "Price": 37500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/heavyweapons/Homing-launcher-icon.png"
+    },
+    {
+      "Name": "Compact Grenade Launcher",
+      "Hash": "0x0781FE4A",
+      "Description": "A small, portable grenade launcher that packs a punch and is easy to carry.",
+      "Price": 40500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/heavyweapons/Grenade-compact-launcher-icon.png"
+    },
+    {
+      "Name": "Widowmaker",
+      "Hash": "0xB62D1F67",
+      "Description": "A powerful rapid-firing energy weapon, capable of sustained fire and significant damage.",
+      "Price": 98000,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/heavyweapons/Widowmaker-icon.png"
+    },
+    {
+      "Name": "Compact EMP Launcher",
+      "Hash": "0xDB26713A",
+      "Description": "A compact electromagnetic pulse launcher designed to disable electronic systems.",
+      "Price": 75500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/heavyweapons/EMP-launcher-icon.png"
+    }
+  ],
+
+
+
+
+
+
+  "Throwables": [
+    {
+      "Name": "Grenade",
+      "Hash": "0x93E220BD",
+      "Description": "A throwable explosive device that detonates after a short delay.",
+      "Price": 1500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/throwable/Grenade-icon.png"
+    },
+    {
+      "Name": "BZ Gas",
+      "Hash": "0xA0973D5E",
+      "Description": "A canister releasing a non-lethal but disorienting gas, ideal for crowd control.",
+      "Price": 1200,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/throwable/Bz-gas-icon.png"
+    },
+    {
+      "Name": "Molotov Cocktail",
+      "Hash": "0x24B17070",
+      "Description": "A homemade incendiary weapon that creates a fiery explosion on impact.",
+      "Price": 600,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/throwable/Molotov-icon.png"
+    },
+    {
+      "Name": "Sticky Bomb",
+      "Hash": "0x2C3731D9",
+      "Description": "An adhesive explosive device that can be attached to surfaces and remotely detonated.",
+      "Price": 2000,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/throwable/Sticky-bomb-icon.png"
+    },
+    {
+      "Name": "Proximity Mines",
+      "Hash": "0xAB564B93",
+      "Description": "Mines that detonate when an enemy comes within close proximity, useful for creating traps.",
+      "Price": 1500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/throwable/Proximity-mines-icon.png"
+    },
+    {
+      "Name": "Snowballs",
+      "Hash": "0x787F0BB",
+      "Description": "A handful of snowballs, perfect for wintertime fun.",
+      "Price": 20,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/throwable/Snowball-icon.png"
+    },
+    {
+      "Name": "Pipe Bombs",
+      "Hash": "0xBA45E8B8",
+      "Description": "Homemade explosive devices with a short fuse, suitable for causing chaos.",
+      "Price": 800,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/throwable/Pipe-bomb-icon.png"
+    },
+    {
+      "Name": "Baseball",
+      "Hash": "0x23C9F95C",
+      "Description": "A standard baseball, great for playing sports or causing mischief.",
+      "Price": 10,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/throwable/Ball-icon.png"
+    },
+    {
+      "Name": "Tear Gas",
+      "Hash": "0xFDBC8A50",
+      "Description": "A canister releasing a noxious gas that causes disorientation and discomfort.",
+      "Price": 800,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/throwable/Tear-gas-icon.png"
+    },
+    {
+      "Name": "Flare",
+      "Hash": "0x497FACC3",
+      "Description": "A signal flare used for signaling or creating bright illumination.",
+      "Price": 50,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/throwable/Flare-icon.png"
+    },
+    {
+      "Name": "Acid Package",
+      "Hash": "0xF7F1E25E",
+      "Description": "A specialized package containing corrosive materials, used for unique applications.",
+      "Price": 20000,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/throwable/Acid-package-icon.png"
+    }
+  ],
+
+
+
+
+
+
+  "Miscellaneous": [
+    {
+      "Name": "Jerry Can",
+      "Hash": "0x34A67B97",
+      "Description": "A portable canister filled with flammable liquid, useful for creating fires or fueling vehicles.",
+      "Price": 300,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/miscellaneous/Petrolcan-icon.png"
+    },
+    {
+      "Name": "Parachute",
+      "Hash": "0xFBAB5776",
+      "Description": "A lifesaving device that allows you to glide safely from great heights.",
+      "Price": 1000,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/miscellaneous/Parachute-icon.png"
+    },
+    {
+      "Name": "Fire Extinguisher",
+      "Hash": "0x060EC506",
+      "Description": "A device used to put out fires quickly and efficiently.",
+      "Price": 500,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/miscellaneous/255px-Fire2.png"
+    },
+    {
+      "Name": "Hazardous Jerry Can",
+      "Hash": "0xBA536372",
+      "Description": "A specialized canister filled with hazardous materials, handle with caution.",
+      "Price": 2000,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/miscellaneous/Petrolcan-icon.png"
+    },
+    {
+      "Name": "Fertilizer Can",
+      "Hash": "0x184140A1",
+      "Description": "A container filled with fertilizer, suitable for farming and agricultural activities.",
+      "Price": 400,
+      "Spawnable": true,
+      "Enabled": true,
+      "ImagePath": "assets/images/miscellaneous/Petrolcan-icon.png"
+    }
+  ]
+}
