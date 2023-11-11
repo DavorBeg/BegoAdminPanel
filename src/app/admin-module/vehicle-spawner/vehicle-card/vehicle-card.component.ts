@@ -14,6 +14,10 @@ export class VehicleCardComponent {
   @Input() ImageLocation: string = '';
 
   @HostListener("OnSpawnClick",  [])
+
+
+
+  
   public OnSpawnClick()
   {
     let event = new CustomEvent("testEvent", { "detail": this.VehicleModelObject });
